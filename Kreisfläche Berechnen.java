@@ -1,19 +1,29 @@
 import java.lang.Math;
+// Es wurde gefordert die Klasse Math zu importieren
 import java.util.Scanner;
+// Scanner brauchen wir um etwas in der Konsole einzugeben
 
 class Main {
   public static void main(String[] args) {
 
     final double pi = 3.141592653589793;
+    // final weil double in unserer Aufgabe konstat sein muss
+    
     Scanner sc = new Scanner(System.in);
+    // Scanner mit "sc" aufrufen
+    
     System.out.println("Yo, gib mal den Radius ein");
+    
     double radius = sc.nextDouble();
+    // radius hat den Wert was der Nutzer in der Konsole eingibt
 
-    if(radius <= 0){
-      System.out.println("Eingabefehler");
-
+    if(radius>0){
+        System.out.println("Umfang: "+(pi*(radius*radius))); 
+        // wenn Radius größer als 0 ist, dann berechnen wir weiter mit Hilfe des Formels auf Moode und zeigen wir das Ergebnis mit System.out.println
+        
     }else{
-    System.out.println("Flaeche: "+(pi*(radius*radius)));
+        System.out.println("Eingabefehler");
+        // wenn Radius kleiner als 0 ist, wird nur ein Fehler gezeigt und nichts berechnet
     }
   }
 }
