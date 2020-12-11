@@ -26,6 +26,7 @@ public class test {
         
         switch(WaehrungEingabe){
                 // Was spielt eine Rolle bei der ausgabe? --> natürlich der Währungeingabe! deswegen wollen wir bestimmen was bei jeder Eingabe gemacht wird
+                // In der Aufgabestellung steht dass wir mit Mehrfachauswahl arbeiten müssen, d.h mit Switch-Case
                 // Man kann natürlich mit 4 IF Anweisungen das auch machen, wäre aber langweilig
                 case "USD":
                 ausgabe = usd*eurobetrag;    
