@@ -10,7 +10,7 @@ public class test {
     
     Scanner sc =  new Scanner(System.in);
     // Scanner mit "sc" aufrufen
-    System.out.println("Gib mal zwei Zahlen");
+    System.out.println("Gib mal zwei Zahlen ein");
     
     int y = sc.nextInt();
     int z = sc.nextInt();
