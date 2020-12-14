@@ -16,6 +16,7 @@ public class test {
     int z = sc.nextInt();
     
     if(y>=10 && y<=2000000000 && z>=10 && z<=2000000000){
+        // y und z müssen >=10 und <= 2000000000 sein
         if((y*z)<x || (y*z)<=x){
             int m = y*z;
             System.out.println(m);
