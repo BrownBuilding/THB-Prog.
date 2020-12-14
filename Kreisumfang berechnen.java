@@ -11,12 +11,12 @@ public class test{
     // final weil double in unserer Aufgabe konstat sein muss
         
     Scanner sc = new Scanner(System.in);
-        // Scanner mit "sc" aufrufen    
+    // Scanner mit "sc" aufrufen    
      
     System.out.println("Gib mal den Radius ein");
         
     double radius = sc.nextDouble();
-        // radius hat den Wert was der Nutzer in der Konsole eingibt
+    // Radius hat den Wert was der Nutzer in der Konsole eingibt
     
     if(radius>0){
         System.out.println("Umfang: "+pi*radius*2); 
